@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Fonts-Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+<!-- navbar -->
+<nav id="navbar-example3" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+      <a href="/" class="navbar-brand">
+          <i class="bi bi-bricks"></i>
+          <span class="align-middle">Juan Pablo Larraga</span>    
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                  <a href="index.html" class="btn btn-primary  h2 pb-2" role="button">Home</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+<!-- end of navbar -->
+
+
+    <!-- portfolio -->
+<section id="portfolio" class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center py-5">
+            <h2 class="text-center display-4 mb-5">Portfolio</h2>
+            <p class="lead text-center pb-5">
+                My portfolio contains all the projects I've been working on thourough the learning process of the MERN stack. The technologies involved are HTML, CSS and Javascript. Here you can check each project or you can also check each all my <strong>github</strong> repositories at <a class="text-decoration-none" href="https://github.com/jplarraga">jplarraga</a>
+            </p>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/pacman1.png" class="card-img-top" alt="PacMan">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="https://jplarraga.github.io/PacMan-Excercise/" class="text-decoration-none lead">PacMan Excercise</a>
+                        </h5>
+                      <p class="card-text">Using the concepts of arrays and loops on Javascript the project sets up a specific function in order to give the pacman live</p>
+                      <a href="https://github.com/jplarraga/PacMan-Excercise" class="btn btn-primary">Project Repository</a>
+                    </div>
+                  </div> 
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/eyes1.png" class="card-img-top" alt="Eye">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                          <a href="https://jplarraga.github.io/Eye-Excercise/" class="text-decoration-none lead">Eye Excercise</a>
+                        </h5>
+                      <p class="card-text">The proyect make use of the DOM as a form to animate an eye, using HTML, CSS and Javascript Excercise on mouse movement</p>
+                      <a href="https://github.com/jplarraga/Eye-Excercise" class="btn btn-primary">Project Repository</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/bus_tracker1.png" class="card-img-top" alt="Bus">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                          
+                        <a href="https://jplarraga.github.io/Realtime-bus-tracker/" class="text-decoration-none lead">Realtime bus Tracker</a>
+
+                      </h5>
+                      <p class="card-text">Using the concept of fetching, asyn and await and by the use of Mapbox, this project creates a bus location </p>
+                      <a href="https://github.com/jplarraga/Realtime-bus-tracker" class="btn btn-primary">Project Repository</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of portfolio -->
+<!-- footer -->
+<footer class="container-fluid  bg-dark py-5 text-center text-light">
+  <p class="pt-1"> Created by Juan Pablo Larraga 2021</p>
+</footer>
+<!-- end of footer -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

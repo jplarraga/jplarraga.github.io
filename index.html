@@ -1,15 +1,297 @@
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Juan's Portfolio</h1>
-    <img src="/Juan.png" alt="Juan Laraga Photo">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, repudiandae pariatur, cumque praesentium, mollitia excepturi corrupti odio velit aut eius architecto error eaque quo hic vero odit cum ad libero?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolores tempore sit distinctio exercitationem facere vero deserunt magni nesciunt saepe, veniam, nulla aut, velit natus eaque eligendi cumque sint. Officia.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nihil cum facere eveniet, ab harum, accusantium repellendus nulla doloremque odit voluptas officiis! Accusamus sapiente placeat explicabo facere quia earum consequatur.</p>
-</body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="img/juan_favicon.ico">
+
+    <title>Juan Pablo Larraga</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Fonts-Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  <body style="position: relative;" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="10" tabindex="0">
+    <!-- navbar -->
+    <nav id="navbar-example3" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a href="/" class="navbar-brand">
+                <img class="img-fluid" src="img/juan_logo.png" alt="">
+                <span class="align-middle">Juan Pablo Larraga</span>    
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="btn btn-primary  h2 pb-2" role="button">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- slider -->
+    <section id="inicio" class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-lg-6 z-index-2">
+                    <h1 class="d-blockblock display-3 py-5 text-dark">JUAN PABLO LARRAGA</h1>
+                    
+                    <a href="https://github.com/jplarraga"><i class="bi bi-github text-primary h2 d-block pt-5 pb-3"></i></a>
+                    <a href="https://linkedin.com"><i class="bi bi-linkedin text-primary h2 d-block py-3"></i></a>
+                    <a href="portfolio.html" class="btn btn-outline-primary h2 mt-3 pt-2 px-3" role="button">Portfolio</a>
+                </div>
+
+                <div class="col-12 col-sm-12 col-lg-6 z-index-2">
+                    <img src="img/juan_pablo_mask.png" alt="Juan Pablo Larraga">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- end of slider -->
+
+
+    <!-- main -->
+    <main class="bg-dark text-white py-5" id="about">
+        <div class="container">
+            <div class="text-center py-5">
+                <h2 class="text-center display-4 mb-5">About Me</h2>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <p class="lead mb-5 text-center">
+                        I'm an economist with experience in auditing, marketing, management and planning. I'm very passionate about learning new technologies and I'm currently looking forward to have a deeper understanding about the digital world. If I had to define one strenght it would be problem solving. If you want to know more about me, feel free to contact me anytime!
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <!-- video -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3GXtmKAvQoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- end of video -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- end of main -->
+    
+
+    <!-- experience -->
+    <section id="experience" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center py-5">
+                <h2 class="text-center display-4 mb-5">Experience</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-5 mb-md-0">
+                    <img src="img/work_image.JPG" alt="" class="img-fluid rounded">
+                </div>
+                <div class="col-12 col-md-6 col-lg-8 col-xl-9">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              PwC (Ecuador)
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">This was my first professional experience, I entered as a trainee and I started working on tasks such as Bank reconciliations, Expenses control, Inventory Control, Expenses review, Imports review, KPI's and Economic Scenarios for private firms and NGO's being <strong>The Global Fund</strong> the most important organization as client.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Vixteam Consultoria & Sistemas (Brazil)
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"> On my second working experience I started working on a Software firm. In this case I had an experience working with the marketing department on the comercialization of software related solutions. The tasks involved were the creation and presentation of Proves of Concept, Sotware Training, Success Cases Translation, Comercial Webinars, Webinar Content Development, Lead Management and Follow up.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                AIESEC (Brazil)
+                              </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Although this was a non-paid experience I was inolved in probably the most influencial ONG for young professionals. I worked on the GIPI area focused on finding international professional talents to allocate on brazilian startups for different areas. The proceses inolved professional scoping, interview with potential candidates, presentation of potential candidates. Also the GIPI area focused on finding new start-ups, small companies or large companies who could be interested on bringing international human resourses to their companie's culture</div>
+                            </div>
+                          </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                              Hotel Fiesta (Ecuador)
+                            </button>
+                          </h2>
+                          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">This is probably the most extensive managerial experience I've had so far and in which I'm currently working at the moment. I'm responsible for all the areas of the company and activities ranging form financial Planning, Tax management, Quality Control, Distribution Channels' Management (OTA's management), Pricing, Promotion, Marketing Strategies, Social Media Management and Negociations</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end of experience -->
+
+
+    <!-- skills -->
+    <section id="skills" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="text-center py-5">
+                <h2 class="text-center display-4 mb-5">Skills</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4 my-3">
+                    <p class="lead">Management</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 my-3">
+                    <p class="lead">Operations Management</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 my-3">
+                    <p class="lead">Marketing</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 my-3">
+                    <p class="lead">Financial Planning</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                      </div>
+                </div><div class="col-12 col-sm-6 col-lg-4 my-3">
+                    <p class="lead">Project Management</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                      </div>
+                </div><div class="col-12 col-sm-6 col-lg-4 my-3">
+                    <p class="lead">Customer Service</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                      </div>
+                </div><div class="col-12 col-sm-6 col-lg-4 my-3">
+                    <p class="lead">Social Media</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                      </div>
+                </div><div class="col-12 col-sm-6 col-lg-4 my-3">
+                    <p class="lead">Programming</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 20%"></div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 my-3">
+                    <p class="lead">Business Negotiation</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                      </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end of skills -->
+
+
+    
+
+
+    <!-- contact -->
+    <section class="bg-light py-5" id="contact">
+        <div class="container">
+            <div class="text-center py-5">
+                <h2 class="text-center display-4 mb-5">Contact</h2>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <h5>Feel free to follow me on my social media:</h5>
+                    <ul class="">
+                        <li class="list-group">
+                            <div class="py-3">
+                                <i class="bi bi-linkedin h2"></i>
+                                <a class="ms-2 h5 text-decoration-none" href="https://linkedin.com">juan-pablo-larraga</a>
+                            </div>
+                            <div class="py-3">
+                                <i class="bi bi-twitter h2"></i>
+                                <a class="ms-2 h5 text-decoration-none" href="https://twitter.com/jplarraga">jplarraga</a>
+                            </div>
+                            <div class="py-3">
+                                <i class="bi bi-facebook h2"></i>
+                                <a class="ms-2 h5 text-decoration-none" href="https://www.facebook.com/juan.p.larraga">Juan Pablo Larraga</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <h5>Or you can also check my work or get in touch at:</h5>
+                    <ul class="">
+                        <li class="list-group">
+                            <div class="py-3">
+                                <i class="bi bi-github h2"></i>
+                                <a class="ms-2 h5 text-decoration-none" href="https://github.com/jplarraga">jplarraga</a>
+                            </div>
+                            <div class="py-3">
+                                <i class="bi bi-envelope h2"></i>
+                                <a class="ms-2 h5 text-decoration-none">jplarraga@gmail.com</a>
+                            </div>
+                            <div class="py-3">
+                                <i class="bi bi-telephone h2"></i>
+                                <a class="ms-2 h5 text-decoration-none">+593-997-613939</a>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of contact -->
+
+    <!-- footer -->
+    <footer class="container-fluid  bg-dark py-2 text-center text-light">
+        <p class="pt-1"> Created by Juan Pablo Larraga 2021</p>
+    </footer>
+    <!-- end of footer -->
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
