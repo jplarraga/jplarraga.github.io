@@ -11,7 +11,7 @@ My Website
   <li>Copy the code of the repository</li>
   <li>On your terminal locate the folder in which you would like to take the files and then press: <strong> git clone </strong> and then paste the code copied on the repository</li>
   <li>Once the files are cloned to the local file, in your terminal write <strong>code .</strong>. this will eventually open VSCode </li>
-  <li>Work on the website and apply all the changes needed and when the progress is considerable write in the terminal <strong> git all .</strong> this will appply all the changes</li>
+  <li>Work on the website and apply all the changes needed and when the progress is considerable write in the terminal <strong> git add .</strong> this will appply all the changes</li>
   <li>Write <strong> git commit -m (any text with the changes made) </strong> this will commit all the changes made so far</li>
   <li>Whenever the code is ready to upload it to the repository write <strong>git push origin master</strong>. If it is not the master repository then the code to write is <strong>git push origin main</strong> this is the location of the main branch.
  
